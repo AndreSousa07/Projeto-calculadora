@@ -486,3 +486,80 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-04-16 23:10:35.981
+!MESSAGE C:\Users\Master\AppData\Local\Avast Software\Browser\User Data\Default\Cache\Cache_Data\data_0 (O arquivo já está sendo usado por outro processo)
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Master\AppData\Local\Avast Software\Browser\User Data\Default\Cache\Cache_Data\data_0 (O arquivo já está sendo usado por outro processo)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:395)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getEntryContentLength(WorkingTreeIterator.java:600)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:200)
+	at org.eclipse.egit.ui.internal.staging.StagingView$58.run(StagingView.java:3872)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2023-04-16 23:19:28.297
+!MESSAGE An exception occurred during push on URI https://github.com/AndreSousa07/Projeto-caculadora.git: https://github.com/AndreSousa07/Projeto-caculadora.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/AndreSousa07/Projeto-caculadora.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:138)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1537)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-04-16 23:19:28.305
+!MESSAGE Can't connect to any repository: https://github.com/AndreSousa07/Projeto-caculadora.git (https://github.com/AndreSousa07/Projeto-caculadora.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2023-04-16 23:23:01.784
+!MESSAGE An exception occurred during push on URI https://github.com/AndreSousa07/Projeto-caculadora.git: https://github.com/AndreSousa07/Projeto-caculadora.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/AndreSousa07/Projeto-caculadora.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:138)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1537)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-04-16 23:23:01.796
+!MESSAGE Can't connect to any repository: https://github.com/AndreSousa07/Projeto-caculadora.git (https://github.com/AndreSousa07/Projeto-caculadora.git: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2023-04-16 23:24:49.128
+!MESSAGE An exception occurred during push on URI https://github.com/AndreSousa07/Projeto-caculadora.git: https://github.com/AndreSousa07/Projeto-caculadora.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/AndreSousa07/Projeto-caculadora.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:138)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1537)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-04-16 23:24:49.132
+!MESSAGE Can't connect to any repository: https://github.com/AndreSousa07/Projeto-caculadora.git (https://github.com/AndreSousa07/Projeto-caculadora.git: not authorized)
+
+!ENTRY org.eclipse.egit.ui 4 0 2023-04-16 23:26:26.639
+!MESSAGE C:\Users\Master\AppData\Local\Avast Software\Browser\User Data\Default\Cache\Cache_Data\data_0 (O arquivo já está sendo usado por outro processo)
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Master\AppData\Local\Avast Software\Browser\User Data\Default\Cache\Cache_Data\data_0 (O arquivo já está sendo usado por outro processo)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.jgit.treewalk.FileTreeIterator$FileEntry.openInputStream(FileTreeIterator.java:395)
+	at org.eclipse.jgit.treewalk.WorkingTreeIterator.getEntryContentLength(WorkingTreeIterator.java:600)
+	at org.eclipse.jgit.api.AddCommand.call(AddCommand.java:200)
+	at org.eclipse.egit.ui.internal.staging.StagingView$58.run(StagingView.java:3872)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
