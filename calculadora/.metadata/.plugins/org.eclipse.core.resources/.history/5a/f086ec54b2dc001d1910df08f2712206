@@ -1,0 +1,28 @@
+package aula042023;
+
+public class adicao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// CalculadoraSemParametro {
+		  
+		        int num1 = 5;
+		        int num2 = 10;
+		        int resultado = num1 + num2;
+		        System.out.println("A soma de " + num1 + " e " + num2 + " é " + resultado);
+		    }
+		
+
+		//CalculadoraComParametro {
+   
+        int num1 = 5;
+        int num2 = 10;
+        int resultado = soma(num1, num2);
+        System.out.println("A soma de " + num1 + " e " + num2 + " é " + resultado);
+    
+    	int soma(int a, int b) {
+        int resultado = a + b;
+        return resultado;
+    }
+}
+

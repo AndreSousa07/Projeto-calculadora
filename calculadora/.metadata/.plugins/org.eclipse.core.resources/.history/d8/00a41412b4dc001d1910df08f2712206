@@ -1,0 +1,10 @@
+package aula042023;
+
+public class adicaocomparametro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
